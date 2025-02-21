@@ -37,7 +37,7 @@ def convert_pdf_to_docx(file_path: str) -> str:
     return docx_path
 
 def main() -> None:
-    updater = Updater(7554220392:AAE4LH0F4WIM66r2-kgDAUGaqiT4OQON99g)
+    updater = Updater(TOKEN)
 
     dispatcher = updater.dispatcher
 
